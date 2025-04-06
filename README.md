@@ -53,7 +53,7 @@ Gen Z faces burnout, anxiety, and a tidal wave of self-help content that doesn�
 
 ## 🧪 Research & Validation
 
-- 📊 [Survey Form](#) (coming soon)
+- 📊 [Survey Form](#) *(coming soon!)*
 - 🧠 Based on CBT, mindfulness, and behavioral habit-building
 - 🧃 Memes meet mental health
 
@@ -68,16 +68,17 @@ Pull requests are welcome! If you have ideas for quests, UI, or gamification fea
 ## 👨‍💻 Team
 
 Built with chaos & compassion by:
-- Amanpreet Singh Gandhi
-- [Add team members here]
+
+- Amanpreet Singh Gandhi  
+- Anjika Bahl  
+- Anushka Sinha
 
 ---
 
 ## 📬 Contact
 
 Have feedback, memes, or business inquiries?  
-📧 Email: [your-email@example.com]  
-📸 IG: [@gamewise.app](https://instagram.com)
+📧 Email: [amanfromgnit@gmail.com](mailto:amanfromgnit@gmail.com)
 
 ---
 

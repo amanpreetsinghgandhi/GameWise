@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GameWise - Level Up Your Mind</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fefefe;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
+      color: white;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+    header button {
+      background-color: #fff;
+      color: #a18cd1;
+      border: none;
+      padding: 1rem 2rem;
+      font-weight: 600;
+      border-radius: 999px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    header button:hover {
+      background-color: #f1f1f1;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #a18cd1;
+    }
+    .quests ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .quests li {
+      background: #f3f0fa;
+      padding: 1rem;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+      font-weight: 500;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #f3f3f3;
+      font-size: 0.9rem;
+    }
+    form input[type="email"] {
+      padding: 0.8rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      width: 250px;
+      margin-right: 1rem;
+    }
+    form button {
+      padding: 0.8rem 1.5rem;
+      background-color: #a18cd1;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>GameWise</h1>
+    <p>Level up your mind, one quest at a time.</p>
+    <button onclick="document.getElementById('signup').scrollIntoView({ behavior: 'smooth' })">Join the Quest</button>
+  </header>
+
+  <section>
+    <h2>What is GameWise?</h2>
+    <p>GameWise is your dopamine-fueled, brain-hugging bestie disguised as a mental wellness app. Built for Gen Z, it turns self-care into a game — because let’s be honest, we’ll do anything for XP and cute avatars.</p>
+  </section>
+
+  <section class="quests">
+    <h2>Sample Daily Quests</h2>
+    <ul>
+      <li>💧 Hydrate or die-drake</li>
+      <li>🌿 Touch some grass, bro</li>
+      <li>✨ Write 3 good things</li>
+      <li>🧘 Breathe, bro, breathe</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Why It Works</h2>
+    <p>GameWise uses gamification, humor, and daily micro-actions to help you actually stick to self-care. It's fun, friendly, and designed to match Gen Z's chaotic vibes.</p>
+  </section>
+
+  <section id="signup">
+    <h2>Get Early Access</h2>
+    <form>
+      <input type="email" placeholder="Your email" required />
+      <button type="submit">Sign Up</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 GameWise. Built with chaos & compassion.
+  </footer>
+</body>
+</html>
